@@ -4,6 +4,9 @@
   text-align:center;
   width: 100%;
   color:black;
+  height:100%;
+  margin: 0;
+padding: 0;
 }
 .box{
   width:"600px";
@@ -52,11 +55,12 @@ footer{
 }
 header{
   background-color:darkgray;
-  height=100%;
+  margin:0;
 }
-body{
+html,body{
   background-image:url("./images/comp1.jpg");
   background-size:cover;
+  margin:0;
 }
 
 .dark-background{
@@ -95,10 +99,10 @@ padding-bottom: 0px;
 }
 
 .footer {
-  position:absolute;
+  position:fixed;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;            /* Footer height */
+  height: 40px;            /* Footer height */
 }
   .dark{
     color:blanchedalmond;
