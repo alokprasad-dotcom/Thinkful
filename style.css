@@ -1,13 +1,22 @@
-.l1{
-  font-family:cursive;
-  font-size:large;
-  text-align:center;
-  width: 100%;
-  color:black;
-  height:100%;
-  margin: 0;
-padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+header {
+  background-color: grey;
 }
+
+header h1  {
+  margin: 0;
+  color:black;
+  font-family:cursive;
+  font-size:50px;
+   text-align: center; 
+  padding: 60px 0 20px 20px;
+}
+h2
+{
+  text-align: center;
+}
+
 .box{
   width:"600px";
   margin:"0px";
@@ -26,24 +35,25 @@ p{
   color:blue;
 }
 .plain-text{
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:'Courier New', Courier, monospace;
+  font-size:1px;
 }
-.a1{
+.intro{
   font-family:'Courier New', Courier, monospace;
   padding: 20px;
   font-size:20px;
   font-weight: bold;
   vertical-align: bottom;
-  width: auto;
+  
 }
 .column{
-  position: relative;
+  position:relative;
   width:30%;
   padding:5px;
   float: right;
   align-items: left;
-  }
-  .row::after {
+}
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -56,6 +66,7 @@ footer{
 header{
   background-color:darkgray;
   margin:0;
+  
 }
 html,body{
   background-image:url("./images/comp1.jpg");
@@ -72,9 +83,9 @@ html,body{
 .white{
   color:black;
   font-size:20px;
-padding-bottom: 0px;
+  padding-bottom: 0px;
   float: left;
-  }
+}
   .main{
     padding:100px;
     align-content: center;
@@ -86,16 +97,43 @@ padding-bottom: 0px;
     margin: auto;  
   }
 .page-container{
-  position: relative;
   min-height: 100vh;
-  float:right;
-  width:100%;
-
- 
 }
-.content-wrap {
-  padding-bottom: 2.5rem;
-     /* Footer height */
+
+.hobby{
+  width: 100%;
+  float: left;
+
+}
+.hobby-center{
+  width:100%;
+  float:center;
+}
+
+.hr{
+  width:100%;
+}
+/* unvisited link */
+
+
+a:visited {
+  color:brown;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color:blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+footer-links{
+  float:left;
+  position: relative;
 }
 
 .footer {
