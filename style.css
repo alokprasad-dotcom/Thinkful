@@ -80,12 +80,7 @@ html,body{
   color:antiquewhite;
   align-self: start;
 }
-.white{
-  color:black;
-  font-size:20px;
-  padding-bottom: 0px;
-  float: left;
-}
+
   .main{
     padding:100px;
     align-content: center;
