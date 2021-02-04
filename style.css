@@ -69,9 +69,11 @@ header{
   
 }
 html,body{
-  background-image:url("./images/comp1.jpg");
+  /*background-image:url("./images/comp1.jpg");*/
   background-size:cover;
   margin:0;
+  background-color:darkgrey;
+  
 }
 
 .dark-background{
